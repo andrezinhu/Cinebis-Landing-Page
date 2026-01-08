@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top pt-3 pb-3">
+        <div class="container">
+            <h1 class="section-title m-0">Cinebis</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobreOCinema" class="nav-link">
+                            <i class="bi bi-camera-reels-fill me-1"></i>
+                            Conheça nosso Cinema
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-balloon-fill me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#filmes" class="nav-link">
+                            <i class="bi bi-fork-knife me-1"></i>
+                            Filmes em cartaz
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#faleConosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy = "scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobreOCinema">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="img-fluid" src="images/slides/Foto1.png" alt="Foto do espaço interno do Cinema">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="img-fluid" src="images/slides/Foto2.jpg" alt="Duas taças de vinho">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="img-fluid" src="images/slides/Foto3.jpg" alt="Uma mesa com comida">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target = #carousel class="active" data-bs-slide-to = "0"> </button>
+                <button type="button" data-bs-target = #carousel data-bs-slide-to = "1"> </button>
+                <button type="button" data-bs-target = #carousel data-bs-slide-to = "2"> </button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/Cinema.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do Cinema">
+                </div>
+                <div class="col-md-7 mt-3 mt-md-0">
+                    <h2 class="section-title">Sobre <span class="text-colored">o Cinema</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eum aliquid porro eos mollitia asperiores id nulla quos, sapiente molestiae sequi repellat, corrupti adipisci qui laboriosam minima maiores dolores itaque!</p>
+                    <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium veritatis ipsa impedit distinctio officiis. Facilis adipisci, ducimus praesentium quae commodi sequi dicta atque labore culpa eaque officiis numquam doloremque architecto.</p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias beatae illum fugiat dolorem maxime, nihil consectetur et molestiae magni assumenda quasi repellendus voluptas, corporis reprehenderit pariatur, numquam asperiores nostrum?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/familia.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-house-heart"></i>
+                            Filmes para família
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias beatae illum fugiat dolorem maxime, nihil consectetur et molestiae magni assumenda quasi repellendus voluptas, corporis reprehenderit pariatur, numquam asperiores nostrum?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/AmigosCinema.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Encontrar amigos
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias beatae illum fugiat dolorem maxime, nihil consectetur et molestiae magni assumenda quasi repellendus voluptas, corporis reprehenderit pariatur, numquam asperiores nostrum?</p>
+                    </div>
+            </div>
+        </section>
+        <section id="filmes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Filmes</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-filmes">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acaoEAventura" class=" fw-bold nav-link text-colored active">Ação e Aventura</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#infantil" class=" fw-bold nav-link text-colored">Infantil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#terror" class=" fw-bold nav-link text-colored">Terror</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#comedia" class=" fw-bold nav-link text-colored">Cómedia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#dramaSuspense" class=" fw-bold nav-link text-colored">Drama e suspense</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="acaoEAventura">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/bebidas/Volta.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">A volta dos que não foram</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/bebidas/Missao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Missão Possível</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/bebidas/Chilena.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Chilena Jones</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/bebidas/Volta.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">A volta dos que não foram</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/bebidas/Missao.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Missão Possível</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/bebidas/Chilena.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Chilena Jones</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="infantil">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/infantil/Deu ruim.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Deu ruim</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/infantil/Vai Devagar.jpg" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Vai Devagar</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="terror">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/terror/Capuz.jpg" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">O encapuzado</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/terror/O Feio.jpg" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">O Feio</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/terror/Capuz.jpg" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">O encapuzado</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/terror/O Feio.jpg" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">O Feio</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="comedia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/comedia/Risadas.jpg" alt="Foto da ">
+                                        <h5 class="text-colored fw-bold mt-2">Rindo a toa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/comedia/Nas nuvens.jpg" alt="Foto do Salmao">
+                                        <h5 class="text-colored fw-bold mt-2">Eu vou cair</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/comedia/Risadas.jpg" alt="Foto da ">
+                                        <h5 class="text-colored fw-bold mt-2">Rindo a toa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/comedia/Nas nuvens.jpg" alt="Foto do Salmao">
+                                        <h5 class="text-colored fw-bold mt-2">Eu vou cair</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="dramaSuspense">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/drama e suspense/Até o segundo homem.jpg" alt="Foto do bolo de chocolate">
+                                        <h5 class="text-colored fw-bold mt-2">Até o segundo homem</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/filmes/drama e suspense/Eu nunca te amei.png" alt="Foto do Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Eu nunca te amei</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="faleConosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3"> 
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3"> 
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3"> 
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(Opcional)</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="(99) 99999-9999">
+                            </div>
+                            <div class="mb-3"> 
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste Exemplo n145, Bairro Bootstrap - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<script>
+    $(document).ready(function () {
+        $('#telefone').mask('(00) 00000-0000');
+    });
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#telefone').mask('(00) 00000-0000');
+    });
+</script>
+</body>
+
+</html>

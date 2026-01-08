@@ -1,0 +1,83 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #1c4969;
+}
+
+#eventos{
+    background-color: #faf4ca;
+}
+
+.carousel-item .carousel-inner {
+    position: absolute;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#eventos .col-md-4 img{
+    height: 300px;
+    object-fit: cover;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ff4f54;
+    color: #FFF;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+,.nav-filmes .nav-link.active:hover {
+    color: #FFF;
+}
+
+.navbar-toggler{
+    background-color: #edcafa;
+}
+
+.section-title{
+    font-family: Notable, cursive;
+    color: #ff4f54
+}
+
+
+
+#sobreOCinema, #filmes {
+    background-color: #edcafa;
+}
+
+.text-colored {
+    color: #1c4969;
+}
+
+.nav-filmes .nav-link.active,
+#faleConosco button{
+    background-color: #ff4f54;
+    color: #FFF;
+}
+
+.nav-filmes .nav-link:hover {
+    color: #1c4969;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media  (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
